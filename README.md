@@ -12,5 +12,5 @@ This app allows you to track your tasks throughout the day.
 - Program show your daily activities in the past, present or future
 - Yout activitis will be saved into local storage so that you can keep coming back to it.
 
-# Screenshot
+
 
