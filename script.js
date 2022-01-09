@@ -41,11 +41,11 @@ setInterval(function () {
     timeBlocks[i].saveButton()
     if (moment(currentHour).isSame(timeBlocks[i].time)) {
 
-        $(this).find('textarea').toggleClass('past current')
+        $(this).find('textarea').toggleClass('past present')
 
     } else if (moment(currentHour).isBefore(timeBlocks[i].time)) {
 
-        $(this).find('textarea').toggleClass('past current')
+        $(this).find('textarea').toggleClass('past future')
 
     }
 

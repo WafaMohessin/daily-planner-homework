@@ -3,6 +3,12 @@ body {
   font-size: 20px;
   line-height: 12px;
 }
+#currentDisplay{
+  font-size: 26px;
+  font-weight: normal;
+  margin-top: 30px;
+  color:#000000;
+}
 
 textarea {
   background: white;
@@ -41,7 +47,7 @@ textarea {
   color: black;
 }
 
-.current {
+/* .current {
   background-color: #eb4b6d;
   color: black;
 }
@@ -49,7 +55,7 @@ textarea {
 .future {
   background-color: #5cdd8d;
   color: black;
-}
+} */
 
 .saveBtn {
   border-left: 1px solid black;
